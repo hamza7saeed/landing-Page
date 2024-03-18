@@ -1,0 +1,163 @@
+*{
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito",sans-serif;
+    width: auto;
+        height: auto;
+        font-size: large;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0F1035;
+    color: aliceblue;
+}
+.navBar{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    list-style-type: none;
+    gap: 10%;
+    /* margin-left: 1%; */
+    cursor: pointer;
+    font-size:large;
+}
+.clr{
+    color: red
+}
+.cl{
+    color: blue;
+}
+button{
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+    width: 10%;
+
+}
+.btn1{
+    margin-left: 50%;
+}
+.titlee{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.btn{
+  width: 3%;
+    color: black;
+    visibility: hidden;
+    background-color: transparent;
+    border-radius:10px;
+}
+.vis{
+    visibility: visible;
+}
+
+.world{
+    width: 30%;
+margin-left: 35%;
+}
+p{
+    margin-top: 1%;
+}
+.wP{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/909/347/non_2x/watercolor-background-with-hand-drawn-flowers-free-vector.jpg);
+}
+.eco_img{
+    width: 30%;
+    padding:2%;
+}
+.sec_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-soft-sweet-orange-flower-background-plumeria-frangipani-flowers-56548469.jpg);
+   
+}
+.thr_page{
+    background-image: url(https://wallpapers.com/images/hd/flower-design-background-jg4d01f32tlr1wus.jpg);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+visibility: hidden;
+
+}
+.img_env{
+    width: 30%;
+    padding:2%;
+}
+#arrowBtn{
+    width: 30px;
+    /* visibility: hidden; */
+    
+}
+.lable{
+    width: 40px;
+    height: 39px;
+    visibility: hidden;
+    
+}
+.x{
+    visibility: hidden;
+    text-decoration: none;
+}
+@media screen and (min-width: 270px) and (max-width: 640px) {
+    *{
+        width:auto;
+        height: auto;
+    }
+    header{
+        background-color:#0F1035;
+        color: aliceblue;
+    }
+    .navBar{
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        width: 0.1500px;
+       
+        visibility: hidden;
+        background-color: #0F1035;
+        /* margin-left: 30%; */
+    }
+
+    .btn{
+        width: 15%;
+        height: 10%;
+          color: black;
+          visibility: visible;
+        background-color: aliceblue;
+      }
+      .btn1{
+        width: 220cap;
+        height: 4cap;
+        visibility: hidden;
+      }
+      .btn2{
+        width: 220cap;
+        height: 4cap;
+        /* margin-right: 47%; */
+        visibility: hidden;
+
+      }
+      #arrowBtn{
+        width: 30px;
+        visibility: visible;
+    }
+    .lable{
+        width: 37px;
+        visibility: visible;
+    }
+  }
+
